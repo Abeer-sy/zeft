@@ -171,17 +171,7 @@ function countCharacters(str){
 
 // WHY is it WRONG ???
 //Dublicate arry items using recursion instead of for loop
-function dubArr(arr){
-	newArr=[];
 
-	if(arr.length===0){
-		return newArr;
-	}
-	newArr.push(2*arr[0]);
-	arr.shift();
-    dubArr(arr);
-    return newArr;
-}
 
 
 function dubArr(arr){
@@ -238,3 +228,5 @@ function filter(array, predicate) {
   });
   return newAr;
 }
+
+zeft
