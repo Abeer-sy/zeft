@@ -1,2 +1,1 @@
-# zeft
-zeftation
+# rp-starter
